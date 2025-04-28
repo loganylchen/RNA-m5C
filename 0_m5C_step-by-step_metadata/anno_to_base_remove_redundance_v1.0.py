@@ -17,7 +17,7 @@ def changeDict(key,gene_id,trans_id):
 			   'length': transLen.get(trans_id),
 			   'geneName': geneName.get(gene_id),
 			   'isoformName': isoformName.get(trans_id),
-			   'order':order[biotype.get(gene_id)]
+			   'order':order.get(biotype.get(gene_id),9)
 			 }
 
 description = """
@@ -54,6 +54,7 @@ order = {'3prime_overlapping_ncrna' : 1,
 		'IG_C_gene' : 9,
 		'IG_C_pseudogene' : -1,
 		'IG_D_gene' : 2,
+	 	'lncRNA':9
 		'IG_J_gene' : 2,
 		'IG_J_pseudogene' : -1,
 		'IG_V_gene' : 2,
