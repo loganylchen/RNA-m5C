@@ -54,7 +54,7 @@ order = {'3prime_overlapping_ncrna' : 1,
 		'IG_C_gene' : 9,
 		'IG_C_pseudogene' : -1,
 		'IG_D_gene' : 2,
-	 	'lncRNA':9
+	 	'lncRNA':9,
 		'IG_J_gene' : 2,
 		'IG_J_pseudogene' : -1,
 		'IG_V_gene' : 2,
